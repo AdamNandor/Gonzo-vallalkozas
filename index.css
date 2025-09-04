@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    position: relative;
+    background: #151515;
+}
+
+#hatter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(6px); 
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #948d8d;
+}
+
+img:not(#hatter) {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 1650px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #504d4d;
+}
+
+footer {
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    color: #837c7c;
+    border: 2px solid #837c7c;
+    border-radius: 5px;
+}
+
+#ads {
+    float: left;
+}
