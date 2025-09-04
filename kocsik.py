@@ -1,6 +1,6 @@
 autok = []
 
-with open('autok.txt', 'r', encoding='utf-8') as f:
+with open("kocsik.txt", "r", encoding="UTF-8") as f:
     for sor in f:
         marka, modell, ar, loero, nyomatek = sor.strip().split(';')
         autok.append({
